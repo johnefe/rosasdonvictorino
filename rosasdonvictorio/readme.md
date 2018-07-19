@@ -26,3 +26,19 @@ Homestead.yaml
 
 	
 $ composer require nesbot/carbon
+
+
+
+/***********************************************************************************/
+floristeriacolors db
+usuario: janetharcosdm
+db: floristeriacolors
+pass: 23086791
+ftp:
+usuario: 
+pass: floristeriacolors2018
+
+cpanel
+floristeriacolor
+pass:#Floristeria2
+https://www.youtube.com/watch?v=5l16JWh5krw
