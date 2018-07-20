@@ -42,3 +42,5 @@ cpanel
 floristeriacolor
 pass:#Floristeria2
 https://www.youtube.com/watch?v=5l16JWh5krw
+
+php artisan make:request StoreBlogPost

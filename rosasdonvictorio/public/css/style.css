@@ -1,0 +1,322 @@
+#accordion section p {
+    display: none;
+    text-align: center;
+    color:red;
+}
+
+#accordion section a {
+    text-align: center;
+    color: green;
+    text-decoration: none;
+}
+
+#accordion section a:hover {
+    text-decoration: underline;
+}
+
+#accordion section:target p {
+    display: block;
+}
+
+/*================================
+menu de acordeon Ayuda 
+================================*/
+#accordion2 section p {
+    display: none;
+    text-align: center;
+    color:red;
+}
+
+#accordion2 section a {
+    text-align: center;
+    color: green;
+    text-decoration: none;
+}
+
+#accordion2 section a:hover {
+    text-decoration: underline;
+}
+
+#accordion2 section:target p {
+    display: block;
+}
+
+.accordion2 {
+    width: 100%;
+    margin: 1px auto 20px;
+    background-color: #EEE;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #4D4D4D;
+ }
+
+.accordion2 .link {
+    cursor: pointer;
+    display: block;
+    padding: 15px 15px 15px 42px;
+    color: #4D4D4D;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion2 li:last-child .link {
+    border-bottom: 0;
+}
+
+.accordion2 li i {
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    font-size: 18px;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion2 li i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+    font-size: 16px;
+}
+
+.accordion2 li.open .link2 {
+    color: #b63b4d;
+}
+
+.accordion2 li.open i {
+    color: #b63b4d;
+}
+.accordion2 li.open i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.accordion2 li.default .submenu {display: block;}
+/*=============================
+  Submenu
+ =============================*/
+ .submenu2 {
+    display: none;
+    background: #F3E5F5;
+    font-size: 14px;
+ }
+.submenu2 {
+    padding: 5px 20px;
+}
+ .submenu2 p {
+    color: #000;
+ }
+.submenu2 span{
+    color: #EC407A;
+}
+.submenu2 h4{
+    color: #f49c0b;
+}
+
+.clasico li {
+    list-style:none;
+    padding: 5px 10px;
+}
+.clasico ul{
+    background-color: transparent;
+}
+.linkito a{
+    color: #eee;
+    font-weight: 500px !important;
+    font-size: 15px !important;
+
+}
+
+.linkito {
+    padding: 10px 10px;
+}
+.linkito:hover{
+    background-color:rgba(255,255,255,0.3);
+    
+    border-radius: 10px;
+}
+
+
+.btni{
+  background: transparent !important;
+  color: #424242 !important;
+  border:none !important;
+  margin-left: 6px; 
+  font-size: 10px !important;
+  font-weight: bold;
+  
+}
+
+
+@media only screen and (max-width : 320px) {
+.btni{
+  background: transparent !important;
+  color: #fff !important;
+  
+}
+}
+
+
+@media only screen and (max-width: 825px){
+  .sli-container{
+    width: 100%;
+
+  }
+  .sli-wrapper{
+     height: 180px;
+      width: 100%;
+  }
+  .caption{
+    padding:  1px;
+  }
+  .modal-body{
+    width: 70% !important;
+
+    margin-left: 15% !important;
+    text-align: center !important;
+  }
+.modal-body h3{
+  font-size: 18px;
+}
+.modal{
+    padding: 0 0 !important;
+    margin-left: 0 !important;
+  }
+
+}
+
+@media only screen and (max-width: 535px){
+  .sli-container{
+    width: 100%;
+  }
+
+  .sli-wrapper{
+    height: 100px;
+    width: 100%;
+  }
+  .caption{
+    display: none;
+  }
+  .sli-wrapper li img{
+  position: absolute;
+  max-width: 100%;
+  height: auto !important;
+  top: 0;
+  left: 0;
+ 
+}
+.cantidad-arreglo {
+    width: 80% !important;
+  }
+.modal-body{
+    width: 100% !important;
+    margin-left: 0px !important;
+    text-align: center !important;
+  }
+.modal-body h3{
+  font-size: 18px;
+}
+.modal{
+    padding: 0 0 !important;
+    margin-left: 0 !important;
+  }
+
+}
+@media only screen and (max-width : 320px) {
+  .sli-container{
+    padding-top: 5px;
+    width: 100%;
+    
+  }
+  .sli-wrapper{
+    height: 80px;
+    padding-bottom: 0px;
+  }
+  .saludo{
+    display: none;
+  }
+  .cantidad-arreglo {
+    width: 100% !important;
+  }
+  .modal-body{
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .modal{
+    padding: 0 0 !important;
+    margin-left: 0 !important;
+  }
+ 
+  
+}
+
+/**/
+.multiselect {
+  width: 200px;
+
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  border-radius: 5px;
+}
+
+#checkboxes label {
+  display: block;
+  border:none;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 13px;
+}
+
+#checkboxes label:hover {
+  background-color: #e0e0e0;
+}
+
+table td:nth-child(5) {
+    width: 100px !important;
+}
+table td:first-child {
+    width: 100px;
+    
+}
+table td:nth-child(2) {
+    width: 80px !important;
+   
+}
+table td:nth-child(3) {
+    width: 270px !important;
+    
+}
+table td:nth-child(4) {
+    width: 100px !important;
+    
+}
+
